@@ -117,9 +117,10 @@ You have two options:
 1.  Stop the other service that is using the port (e.g., if you are running RL Swarm).
 2.  Run CodeAssist on a different port using the `--port` argument:
 
-    ```bash
-    uv run run.py --port 3001
-    ```
+```bash
+  uv run run.py --port 3001
+```
+> **Note:** When choosing a new port, please avoid `8000`, `8080`, `8001`, `8008`, `3003`, and `11434`, as they are reserved for other CodeAssist services.
 
 # Contributing
 
